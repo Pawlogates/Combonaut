@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Exponaut.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@700&family=Oswald:wght@300&family=Fjalla+One&family=Fredoka+One&display=swap" rel="stylesheet">
+    
+    <title>Exponaut</title>
+
+    <link rel="shortcut icon" href="favicon_exponaut.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="favicon_exponaut.png">
+
+</head>
+
+<body>
+
+
+
+
+  <div id="score_feedback" class="follower">
+    <div class="animation-box"></div>
+  </div>
+
+
+
+  <div class="cover_screen1"></div>
+  <div class="cover_screen2"></div>
+  <div class="cover_screen3"></div>
+
+  <div class="info"></div>
+
+  <div class="title_top">EXPONAUT</div>
+
+
+<div class="starter_btn_container">
+  <div class="starter_btn"><p class="start_text" style="line-height: 3vw;">SCORE TARGET</p></div>
+
+  <div class="starter_btn_endless"><p class="start_text">ENDLESS</p></div>
+
+  <div class="starter_btn_tutorial"><p class="start_text">TUTORIAL</p></div>
+
+</div>
+    
+
+    <div class="failstate">
+
+      <p class="failstate_text">Try Again...</p>
+    
+    </div>
+
+    <div class="winstate">
+      
+      <p class="winstate_text">text</p>
+    
+    </div>
+
+
+
+
+  <div class="main_obstacle_container">
+      
+      <div class="obstacle_container1">
+        <div class="rectangle_shape"></div>
+        <div class="circle_shape"></div>
+  
+      </div>
+      
+      <div class="obstacle_container1shadow" style="pointer-events: none;">
+        <div class="rectangle_shape" style="pointer-events: none;"></div>
+        <div class="circle_shape" style="pointer-events: none;"></div>
+  
+      </div>
+
+      
+      
+      <div class="obstacle_container1warning" style="pointer-events: none;">
+        <div class="rectangle_shape" style="pointer-events: none; background-color: red;"></div>
+        <div class="circle_shape" style="pointer-events: none; background-color: red;"></div>
+  
+      </div>
+      
+
+
+      <div class="obstacle_container2">
+        <div class="rectangle_shape"></div>
+        <div class="circle_shape"></div>
+        <div class="rectangle_shape" style="top: 7.5%; left: 15%; height: 80%; rotate: -45deg;"></div>
+        <div class="rectangle_shape" style="top: 75%; left: 52.5%; height: 100%; rotate: -45deg;"></div>
+
+
+      </div>
+
+      <div class="obstacle_container2shadow" style="pointer-events: none;">
+        <div class="rectangle_shape" style="pointer-events: none;"></div>
+        <div class="circle_shape" style="pointer-events: none;"></div>
+        <div class="rectangle_shape" style="pointer-events: none; top: 7.5%; left: 15%; height: 80%; rotate: -45deg;"></div>
+        <div class="rectangle_shape" style="pointer-events: none; top: 75%; left: 52.5%; height: 100%; rotate: -45deg;"></div>
+
+
+      </div>
+
+      <div class="obstacle_container2warning" style="pointer-events: none;">
+        <div class="rectangle_shape" style="pointer-events: none; background-color: red;"></div>
+        <div class="circle_shape" style="pointer-events: none; background-color: red;"></div>
+        <div class="rectangle_shape" style="pointer-events: none; top: 7.5%; left: 15%; height: 80%; rotate: -45deg; background-color: red;"></div>
+        <div class="rectangle_shape" style="pointer-events: none; top: 75%; left: 52.5%; height: 100%; rotate: -45deg; background-color: red;"></div>
+
+        
+
+      </div>
+
+  
+  </div>
+
+
+
+  <div class="main_score_container">
+
+    <div class="ender_btn">TITLE SCREEN</div>
+
+    
+<div class="tutorialtext">text</div>
+    <div class="progress1">Click to continue...</div>
+    <div class="progress2">Click to continue...</div>
+    <div class="progress3">Click to continue...</div>
+    <div class="progress4">Click to continue...</div>
+    <div class="progress5">Click to continue...</div>
+    <div class="progress6">Click to continue...</div>
+    <div class="progress7">Click to continue...</div>
+    <div class="progress8">Click to continue...</div>
+    <div class="progress9">Click to continue...</div>
+    <div class="progress10">Click to continue...</div>
+
+    
+
+
+
+    <div class="permanent_display">x1</div>
+    <div class="permanent_skull"></div>
+    <div class="permanent_bg"></div>
+
+    
+    <div class="score_container">
+      <div class="score_display"><span id="scoreValue">0</span></div>
+      <div class="combo_display" style="transition: all 0.3s 0s;"><span id="comboValue">x1</span></div>
+
+      <div id="timer_display">00:00:00</div>
+
+
+
+
+      <div class="fevermeter_cover"></div>
+      <div class="multiplied_text"><p>TOTAL SCORE MULTIPLIED!</p></div>
+      <div class="multiplied_text_right"><p>PERMANENT MULTIPLIER APPLIED!</p></div>
+
+
+      <div class="fevermeter">
+
+
+        <div class="fever">
+
+          <div class="feverlayer1"></div>
+          <div class="feverlayer2"></div>
+          <div class="feverlayer3"></div>
+
+
+        </div>
+
+      </div>
+
+<div class="fever_deco">
+
+      <div class="long_box" style="left: -101vw; height: 50vw; width: 5vw; top: 57vw; rotate: 15deg;"></div>
+
+      <div class="long_box" style="left: -92vw; height: 12vw; width: 5vw; top: 24vw;"></div>
+
+      <div class="circle_fill" style="left: -87vw; top: 30.3vw;"></div>
+
+      <div class="circle_fill" style="left: -90vw; top: 18vw; height: 7vw; width: 7vw;"></div>
+
+
+      <div class="spinner" style="left: -23vw; top: 5vw; scale: 32%; outline-width: 3.5vw;">
+        <div class="long_box" style="height: 37vw; width: 5vw;"></div>
+        <div class="long_box" style="rotate: 60deg; height: 37vw; width: 5vw;"></div>
+        <div class="long_box" style="rotate: 120deg; height: 37vw; width: 5vw;"></div>
+      </div>
+
+      <div class="spinner" style="animation: none; left: -19.5vw; height: 14vw; width: 14vw; outline-width: 3vw; top: 42.5vw; background-color: white;">
+      
+        <div class="long_box" style="height: 18vw; width: 4.5vw; rotate: -18deg;"></div>
+      
+      </div>
+
+
+</div>
+
+      
+
+
+
+  </div>
+
+
+
+  </div>
+
+
+
+
+    <div class="btns_container" id="reset_target">
+      
+
+
+        <div class="rotating_btn_container"><button class="btn_1 btn1anim"><p class="btn1txt"></p></button><div class="btn1shadow"></div><div class="btn1shadow2"></div><div class="btn1shadow3"></div></div>
+        <div class="rotating_btn_container2"><button class="btn_2"><p class="btn2txt"></p></button></div>
+        <div class="rotating_btn_container3"><button class="btn_3"><p class="btn3txt"></p></button></div>
+        <div class="rotating_btn_container4"><button class="btn_4"></button></div>
+
+
+        <div class="onetimebtn" id="onetimebtn_1"></div>
+        <div class="onetimebtn" id="onetimebtn_2"></div>
+        <div class="onetimebtn" id="onetimebtn_3"></div>
+        <div class="onetimebtn" id="onetimebtn_4"></div>
+
+        <!--
+        <div class="onetimebtn" id="onetimebtn_5"></div>
+        <div class="onetimebtn" id="onetimebtn_6"></div>
+        <div class="onetimebtn" id="onetimebtn_7"></div>
+        <div class="onetimebtn" id="onetimebtn_8"></div>
+        -->
+        
+
+        <div class="waveWrapper waveAnimation">
+          <div class="waveWrapperInner bgTop">
+            <div class="wave waveTop" style="background-image: url('graphics/wave-top.png')"></div>
+          </div>
+          <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle" style="background-image: url('graphics/wave-mid.png')"></div>
+          </div>
+          <div class="waveWrapperInner bgBottom">
+            <div class="wave waveBottom" style="background-image: url('graphics/wave-bot.png')"></div>
+          </div>
+        </div>
+
+        
+    </div>
+<!--
+  <div class="deco_container">
+
+    <div class="all_spinners">
+
+      <div class="spinnerset">
+
+      <div class="spinner" style="scale: 160%;">
+        <div class="long_box"></div>
+        <div class="long_box" style="rotate: 60deg;"></div>
+        <div class="long_box" style="rotate: 120deg;"></div>
+      </div>
+
+      <div class="spinner" style="scale: 320%; animation-delay: 0.5s;">
+        <div class="long_box"></div>
+        <div class="long_box" style="rotate: 60deg;"></div>
+        <div class="long_box" style="rotate: 120deg;"></div>
+        <div class="circle_fill"></div>
+      </div>
+
+    </div>
+
+
+    <div class="spinnerset" style="left: -25%; top: 200%;">
+
+      <div class="spinner2" style="scale: 160%; rotate: -50deg;">
+        <div class="long_box"></div>
+        <div class="long_box" style="rotate: 60deg;"></div>
+        <div class="long_box" style="rotate: 120deg;"></div>
+      </div>
+
+      <div class="spinner2" style="scale: 320%; rotate: -50deg; animation-delay: 0.5s;">
+        <div class="long_box"></div>
+        <div class="long_box" style="rotate: 60deg;"></div>
+        <div class="long_box" style="rotate: 120deg;"></div>
+        <div class="circle_fill"></div>
+      </div>
+
+    </div>
+
+    <div class="long_box_filler"></div>
+    <div class="long_box_filler2"></div>
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+    <div id="score_feedback" class="follower">
+      <div class="animation-box"></div>
+  </div>
+  -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="Exponaut.js"></script>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

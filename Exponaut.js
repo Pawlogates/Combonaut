@@ -1152,7 +1152,7 @@ if (endless_mode == true || disableBar == false) {
     
     $(".btn_3").click(function() {
         resetInactivity()
-        current_amount += parseInt($(this).text().replace("+", "") * (comboValue * permanent_multiplier_value));
+        current_amount += 50 * (comboValue * permanent_multiplier_value);
         update_score();
 
         checkScore();
@@ -1194,7 +1194,7 @@ if (endless_mode == true || disableBar == false) {
     $(".btn_1").hover(function() {
         resetInactivity()
         
-        current_amount += parseInt($(this).text().replace("+", "") * (comboValue * permanent_multiplier_value));
+        current_amount += 15 * (comboValue * permanent_multiplier_value);
         update_score();
 
         checkScore();

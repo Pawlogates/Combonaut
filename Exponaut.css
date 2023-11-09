@@ -1011,15 +1011,17 @@ button {
 
     scale: var(--feedback);
     z-index: 30;
+    box-shadow: none;
 
-    transition: scale 0.3s, filter 0.5s;
+    transition: scale 0.3s, filter 0.5s, box-shadow 1s;
     filter: hue-rotate(0deg);
 
 }
 .btn_1:hover {
     scale: 125%;
-    transition: scale 0.1s, filter 0.3s;
+    transition: scale 0s, filter 0.2s, box-shadow 0s;
     filter: hue-rotate(330deg);
+    box-shadow: rgb(255, 217, 0) 2vw 2vw 3vw, rgb(255, 153, 0) 0vw -3vw 3vw, rgb(255, 102, 0) -2vw 2vw 3vw;
 
 }
 
