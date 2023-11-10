@@ -2,8 +2,8 @@ html {
     overflow: hidden;
     user-select: none !important;
 
-    font-family: 'Oswald';
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
     pointer-events: all;
 
 }
@@ -2054,7 +2054,7 @@ animation-duration: 2s;
 
 .animate_score {
     opacity: 100%;
-    font-size: 3vw; /* Set the desired font size when the score increments */
+    font-size: 4.5vw; /* Set the desired font size when the score increments */
     transition: all 0.05s 0s;
     outline: 1vw red solid;
 }
@@ -2271,6 +2271,7 @@ animation-duration: 2s;
     animation: score_anim 1s ease forwards;
     z-index: 35;
     pointer-events: none;
+    font-family: 'Oswald';
 
     font-size: 3vh; /* Adjust as needed */
     font-weight: bold; /* Adjust as needed */
@@ -2701,3 +2702,23 @@ animation-duration: 2s;
     rotate: -60deg;
 
 }
+
+.scoreValue{
+    background: -webkit-linear-gradient(#ffe600 25%, #ff3a3a 75%);
+    position: absolute;
+    z-index: 1;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.scoreValueShadow{
+    color: black;
+    position: absolute;
+    z-index: 0;
+    -webkit-text-stroke: rgb(0, 0, 0) 0.4vw;
+
+    
+}
+

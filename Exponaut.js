@@ -2132,7 +2132,14 @@ function fever_filled_anim() {
 
     function update_score() {
         var scoreDisplay = document.getElementsByClassName('score_display')[0];
-        scoreDisplay.innerHTML = current_amount;
+        
+        
+        score_span = document.getElementById("scoreValue");
+        score_span_shadow = document.getElementById("scoreValueShadow");
+
+        score_span.textContent = current_amount;
+        score_span_shadow.textContent = current_amount;
+
 
         // Add animation class
         scoreDisplay.classList.add('animate_score');
@@ -2181,13 +2188,13 @@ function fever_filled_anim() {
         }
 
 
-            if (current_amount >= 1000000 && current_amount < 1000000000) {
+            if (current_amount >= 100000 && current_amount < 100000000) {
 
                 r.style.setProperty('--variable_width', '12vw');
 
         }
 
-            else if (current_amount >= 1000000000) {
+            else if (current_amount >= 100000000) {
 
                 r.style.setProperty('--variable_width', '16vw');
 
