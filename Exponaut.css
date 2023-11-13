@@ -1021,7 +1021,7 @@ button {
     scale: 125%;
     transition: scale 0s, filter 0.2s, box-shadow 0s;
     filter: hue-rotate(330deg);
-    box-shadow: rgb(255, 217, 0) 2vw 2vw 3vw, rgb(255, 153, 0) 0vw -3vw 3vw, rgb(255, 102, 0) -2vw 2vw 3vw;
+    box-shadow: rgba(255, 217, 0, 0.676) 2vw 1.5vw 1vw, rgba(255, 153, 0, 0.744) 0vw -2.5vw 1vw, rgba(255, 102, 0, 0.717) -2vw 1.5vw 1vw;
 
 }
 
@@ -1067,8 +1067,9 @@ button {
 }
 
 .btn_2:hover {
-    filter: hue-rotate(45000deg);
-    transition: filter 30s;
+    filter: hue-rotate(4500deg);
+    transition: filter 15s;
+    box-shadow: 0vw 0vw 5vw red;
 
 }
 
@@ -1099,7 +1100,20 @@ button {
     z-index: 32;
 
 
+    transition-duration: 0.4s;
 
+
+
+
+
+}
+
+.btn3_onclick {
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    rotate: 450deg;
+    box-shadow: 0vw 0vw 5vw rgb(111, 255, 0);
+    filter: hue-rotate(600deg);
 
 }
 
@@ -1131,8 +1145,11 @@ button {
     z-index: 33;
 
 
-}
+    transition-duration: 0.4s;
 
+
+
+}
 
 
 

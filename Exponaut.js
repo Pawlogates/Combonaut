@@ -2549,13 +2549,11 @@ $(".ender_btn").click(function() {
 
 
 
+$(".btn_3").click(function() {
 
-
-
-
-
-
-
-
+    $('.btn_3').toggleClass('btn3_onclick');
+    
+    
+});
 
 
