@@ -1,0 +1,1 @@
+{"background_color":"#d50000","display":"standalone","icons":[{"sizes":"144x144","src":"Combonaut.144x144.png","type":"image/png"},{"sizes":"180x180","src":"Combonaut.180x180.png","type":"image/png"},{"sizes":"512x512","src":"Combonaut.512x512.png","type":"image/png"}],"name":"2D Platformer with combo system for collectibles","orientation":"any","start_url":"./Combonaut.html"}
