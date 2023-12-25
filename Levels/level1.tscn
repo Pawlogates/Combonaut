@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://d0ev5ctdik86d"]
+[gd_scene load_steps=43 format=3 uid="uid://d0ev5ctdik86d"]
 
 [ext_resource type="PackedScene" uid="uid://pu6px63ietmi" path="res://world.tscn" id="1_7e82i"]
 [ext_resource type="AudioStream" uid="uid://cdall1ibqqpha" path="res://Assets/Sounds/music/Rayman 3： Hoodlum Havoc Soundtrack - (Ambient) The Deadlands.mp3" id="3_6u1r8"]
@@ -7,17 +7,41 @@
 [ext_resource type="PackedScene" uid="uid://fcq2c3tx5v67" path="res://Tiles/tileset_objectsSmall.tscn" id="5_et5dt"]
 [ext_resource type="AudioStream" uid="uid://dfsj4rvxwhoow" path="res://Assets/Sounds/music/Music MSF.mp3" id="5_psrul"]
 [ext_resource type="PackedScene" uid="uid://bk1o70r1mo5kw" path="res://Tiles/trigger_bg_change.tscn" id="8_m7blg"]
-[ext_resource type="Texture2D" uid="uid://bjkqxj8c6bpll" path="res://Assets/Graphics/bg8.png" id="9_b2twr"]
-[ext_resource type="Texture2D" uid="uid://8h4y75y71fj4" path="res://Assets/Graphics/bg4.png" id="10_jus1n"]
+[ext_resource type="Texture2D" uid="uid://b4bpvn01oof5v" path="res://rayman/background.png" id="9_aesra"]
+[ext_resource type="Texture2D" uid="uid://lo0tqfoaaw3n" path="res://rayman/background2.png" id="10_dosqa"]
 [ext_resource type="Texture2D" uid="uid://m7lpgkh78mwc" path="res://deco/bg3.png" id="11_6kdrt"]
-[ext_resource type="Texture2D" uid="uid://pmygx886acu4" path="res://deco/bg2.png" id="12_jyjei"]
 [ext_resource type="PackedScene" uid="uid://flag654itsqj" path="res://gradient_shader.tscn" id="12_lxb64"]
+[ext_resource type="Texture2D" uid="uid://gr1da3tqaeq2" path="res://rayman/canopy.png" id="12_q8bgt"]
 [ext_resource type="PackedScene" uid="uid://bvl2rlm1ym6vc" path="res://Enemies/enemy_rabbit.tscn" id="13_yboc6"]
 [ext_resource type="PackedScene" uid="uid://cljye56wi53e8" path="res://Enemies/enemy_bat.tscn" id="14_oyl30"]
 [ext_resource type="PackedScene" uid="uid://c63l38ki43ymp" path="res://Enemies/enemy_bossMetalHen.tscn" id="15_7bga1"]
 [ext_resource type="Texture2D" uid="uid://3o70im2tgjtw" path="res://deco/444.png" id="16_mcgv1"]
 [ext_resource type="Texture2D" uid="uid://71k5ckw88lmp" path="res://deco/deco1.png" id="17_ov7aq"]
 [ext_resource type="Texture2D" uid="uid://cx1jxjtvrwpms" path="res://deco/Bez nazwy.png" id="18_hoc46"]
+[ext_resource type="Texture2D" uid="uid://ccjpfcapt36x2" path="res://rayman/1_1_rock_basic_fill.png" id="19_8ct67"]
+[ext_resource type="Texture2D" uid="uid://uudshmy72n8e" path="res://rayman/acid_surface.png" id="20_3xrv0"]
+[ext_resource type="Texture2D" uid="uid://d11817kbjocp6" path="res://rayman/airup_roughs.png" id="21_aqr3s"]
+[ext_resource type="Texture2D" uid="uid://bus2d7ghalr2h" path="res://rayman/algue2.png" id="22_67nxl"]
+[ext_resource type="Texture2D" uid="uid://did232ypeqv4u" path="res://rayman/algue.png" id="23_0oejf"]
+[ext_resource type="Texture2D" uid="uid://43cv3kbxw0bw" path="res://rayman/alinferno_basic_a2.png" id="24_3d8u3"]
+[ext_resource type="Texture2D" uid="uid://d4l1ilalnn6qc" path="res://rayman/bg_medium.png" id="25_7rimr"]
+[ext_resource type="Texture2D" uid="uid://6pphxlhlgg5t" path="res://rayman/bigroot01.png" id="26_kbm8n"]
+[ext_resource type="Texture2D" uid="uid://bo1bkbuxlwcew" path="res://rayman/bigroot05.png" id="27_07n30"]
+[ext_resource type="Texture2D" uid="uid://c1xcvvjw7p67p" path="res://rayman/bigstatue.png" id="28_a1spf"]
+[ext_resource type="Texture2D" uid="uid://becc6cusyol1" path="res://rayman/big_djembe.png" id="29_8gjgf"]
+[ext_resource type="Texture2D" uid="uid://cnac3sitgt1c0" path="res://rayman/bkg_citybottom_part01.png" id="30_45fus"]
+[ext_resource type="Texture2D" uid="uid://co2ur8aclydp6" path="res://rayman/buzzsaw.png" id="31_o0ops"]
+[ext_resource type="Texture2D" uid="uid://brpv4lgixr20y" path="res://rayman/chefbig_txt.png" id="32_7j0pd"]
+[ext_resource type="Texture2D" uid="uid://81pkjn70mf2u" path="res://rayman/chili_roughs.png" id="33_qpglh"]
+[ext_resource type="Texture2D" uid="uid://b603jut7gfvhv" path="res://rayman/city02_blur.png" id="34_sibgx"]
+[ext_resource type="Texture2D" uid="uid://b7u37o70tmfp3" path="res://rayman/clou_food_05.png" id="35_p20cy"]
+[ext_resource type="Texture2D" uid="uid://bppaf2fiueg7x" path="res://rayman/livingstone_f1.png" id="36_b8iyc"]
+[ext_resource type="Texture2D" uid="uid://dw4lpoiah6rbl" path="res://rayman/mossdoor.png" id="37_hlyk1"]
+[ext_resource type="Texture2D" uid="uid://bnefn6be484j6" path="res://rayman/mossplant1.png" id="38_t0c4w"]
+[ext_resource type="Texture2D" uid="uid://dmis82t28406l" path="res://rayman/mossplant1_noshade.png" id="39_y3pyx"]
+[ext_resource type="Texture2D" uid="uid://r0d5o5sdkcug" path="res://rayman/motif_clay.png" id="40_rptre"]
+[ext_resource type="Texture2D" uid="uid://df4hjtd1e5u88" path="res://rayman/pagesystem_food_hot.png" id="41_qbaxl"]
+[ext_resource type="Texture2D" uid="uid://dlcn4gqlj0ar8" path="res://rayman/palmier.png" id="42_4qoqq"]
 
 [node name="World" instance=ExtResource("1_7e82i")]
 light_mask = 7
@@ -63,12 +87,12 @@ scale = Vector2(3.5, 3.6)
 [node name="trigger_bgChange" parent="." index="12" instance=ExtResource("8_m7blg")]
 position = Vector2(544, 40)
 scale = Vector2(1, 18.5)
-Background_filePath = ExtResource("9_b2twr")
+Background_filePath = ExtResource("9_aesra")
 
 [node name="trigger_bgChange2" parent="." index="13" instance=ExtResource("8_m7blg")]
 position = Vector2(64, -416)
 scale = Vector2(5.2, 1)
-Background_filePath = ExtResource("10_jus1n")
+Background_filePath = ExtResource("10_dosqa")
 
 [node name="trigger_bgChange3" parent="." index="14" instance=ExtResource("8_m7blg")]
 position = Vector2(-1112, 152)
@@ -78,7 +102,7 @@ Background_filePath = ExtResource("11_6kdrt")
 [node name="trigger_bgChange4" parent="." index="15" instance=ExtResource("8_m7blg")]
 position = Vector2(1264, -448)
 scale = Vector2(16.15, 1)
-Background_filePath = ExtResource("12_jyjei")
+Background_filePath = ExtResource("12_q8bgt")
 
 [node name="enemyRabbit" parent="." index="16" instance=ExtResource("13_yboc6")]
 position = Vector2(-1016, 128)
@@ -122,23 +146,119 @@ texture = ExtResource("16_mcgv1")
 position = Vector2(392, -928)
 texture = ExtResource("18_hoc46")
 
+[node name="11RockBasicFill" type="Sprite2D" parent="." index="28"]
+position = Vector2(-928, -288)
+texture = ExtResource("19_8ct67")
+
+[node name="AcidSurface" type="Sprite2D" parent="." index="29"]
+position = Vector2(208, -544)
+texture = ExtResource("20_3xrv0")
+
+[node name="AirupRoughs" type="Sprite2D" parent="." index="30"]
+position = Vector2(32, -144)
+texture = ExtResource("21_aqr3s")
+
+[node name="Algue2" type="Sprite2D" parent="." index="31"]
+position = Vector2(416, -96)
+texture = ExtResource("22_67nxl")
+
+[node name="Algue" type="Sprite2D" parent="." index="32"]
+position = Vector2(-464, -632)
+texture = ExtResource("23_0oejf")
+
+[node name="AlinfernoBasicA2" type="Sprite2D" parent="." index="33"]
+position = Vector2(-816, 88)
+texture = ExtResource("24_3d8u3")
+
+[node name="BgMedium" type="Sprite2D" parent="." index="34"]
+position = Vector2(-360, 0)
+texture = ExtResource("25_7rimr")
+
+[node name="Bigroot01" type="Sprite2D" parent="." index="35"]
+position = Vector2(40, -80)
+texture = ExtResource("26_kbm8n")
+
+[node name="Bigroot05" type="Sprite2D" parent="." index="36"]
+position = Vector2(-1536, -1360)
+texture = ExtResource("27_07n30")
+
+[node name="Bigstatue" type="Sprite2D" parent="." index="37"]
+position = Vector2(-1800, -1168)
+texture = ExtResource("28_a1spf")
+
+[node name="BigDjembe" type="Sprite2D" parent="." index="38"]
+position = Vector2(-1392, -1416)
+texture = ExtResource("29_8gjgf")
+
+[node name="BkgCitybottomPart01" type="Sprite2D" parent="." index="39"]
+position = Vector2(-1656, -1008)
+texture = ExtResource("30_45fus")
+
+[node name="Buzzsaw" type="Sprite2D" parent="." index="40"]
+position = Vector2(-960, -1064)
+texture = ExtResource("31_o0ops")
+
+[node name="ChefbigTxt" type="Sprite2D" parent="." index="41"]
+position = Vector2(928, 16)
+texture = ExtResource("32_7j0pd")
+
+[node name="ChiliRoughs" type="Sprite2D" parent="." index="42"]
+position = Vector2(-400, -736)
+texture = ExtResource("33_qpglh")
+
+[node name="City02Blur" type="Sprite2D" parent="." index="43"]
+position = Vector2(24, -256)
+texture = ExtResource("34_sibgx")
+
+[node name="ClouFood05" type="Sprite2D" parent="." index="44"]
+position = Vector2(-344, -592)
+texture = ExtResource("35_p20cy")
+
+[node name="LivingstoneF1" type="Sprite2D" parent="." index="45"]
+position = Vector2(1304, -1208)
+texture = ExtResource("36_b8iyc")
+
+[node name="Mossdoor" type="Sprite2D" parent="." index="46"]
+position = Vector2(136, -1096)
+texture = ExtResource("37_hlyk1")
+
+[node name="Mossplant1" type="Sprite2D" parent="." index="47"]
+position = Vector2(1400, -600)
+texture = ExtResource("38_t0c4w")
+
+[node name="Mossplant1Noshade" type="Sprite2D" parent="." index="48"]
+position = Vector2(1592, -1024)
+texture = ExtResource("39_y3pyx")
+
+[node name="MotifClay" type="Sprite2D" parent="." index="49"]
+position = Vector2(1184, -776)
+texture = ExtResource("40_rptre")
+
+[node name="PagesystemFoodHot" type="Sprite2D" parent="." index="50"]
+position = Vector2(1944, -640)
+texture = ExtResource("41_qbaxl")
+
+[node name="Palmier" type="Sprite2D" parent="." index="51"]
+position = Vector2(-120, -352)
+texture = ExtResource("42_4qoqq")
+
 [connection signal="area_entered" from="tileset_objects/spikes_1" to="tileset_objects/spikes_1" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21840" to="tileset_objects/@Area2D@21840" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21841" to="tileset_objects/@Area2D@21841" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21295" to="tileset_objects/@Area2D@21295" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21296" to="tileset_objects/@Area2D@21296" method="_on_area_entered"]
 [connection signal="area_entered" from="tileset_objects/LevelExit" to="tileset_objects/LevelExit" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21858" to="tileset_objects/@Area2D@21858" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21859" to="tileset_objects/@Area2D@21859" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21860" to="tileset_objects/@Area2D@21860" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21861" to="tileset_objects/@Area2D@21861" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21862" to="tileset_objects/@Area2D@21862" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21863" to="tileset_objects/@Area2D@21863" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21864" to="tileset_objects/@Area2D@21864" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21865" to="tileset_objects/@Area2D@21865" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21867" to="tileset_objects/@Area2D@21867" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21868" to="tileset_objects/@Area2D@21868" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21972" to="tileset_objects/@Area2D@21972" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@21973" to="tileset_objects/@Area2D@21973" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@22023" to="tileset_objects/@Area2D@22023" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@22024" to="tileset_objects/@Area2D@22024" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@22025" to="tileset_objects/@Area2D@22025" method="_on_area_entered"]
-[connection signal="area_entered" from="tileset_objects/@Area2D@22050" to="tileset_objects/@Area2D@22050" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21313" to="tileset_objects/@Area2D@21313" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21314" to="tileset_objects/@Area2D@21314" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21315" to="tileset_objects/@Area2D@21315" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21316" to="tileset_objects/@Area2D@21316" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21317" to="tileset_objects/@Area2D@21317" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21318" to="tileset_objects/@Area2D@21318" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21319" to="tileset_objects/@Area2D@21319" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21320" to="tileset_objects/@Area2D@21320" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21322" to="tileset_objects/@Area2D@21322" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21323" to="tileset_objects/@Area2D@21323" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21427" to="tileset_objects/@Area2D@21427" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21428" to="tileset_objects/@Area2D@21428" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21478" to="tileset_objects/@Area2D@21478" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21479" to="tileset_objects/@Area2D@21479" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21480" to="tileset_objects/@Area2D@21480" method="_on_area_entered"]
+[connection signal="area_entered" from="tileset_objects/@Area2D@21505" to="tileset_objects/@Area2D@21505" method="_on_area_entered"]

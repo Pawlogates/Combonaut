@@ -156,7 +156,7 @@ one_shot = true
 [connection signal="timeout" from="jumpTimer" to="." method="_on_jump_timer_timeout"]
 [connection signal="timeout" from="particle_limiter" to="." method="_on_particle_limiter_timeout"]
 [connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="offScreen_load"]
-[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="offScreen_unload"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="offScreen_unload"]
 [connection signal="timeout" from="flyCooldown" to="." method="_on_fly_cooldown_timeout"]
 [connection signal="timeout" from="flyEnd" to="." method="_on_fly_end_timeout"]
